@@ -1,0 +1,625 @@
+2026-10-29 16:28:01,706 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:28:01,754 | INFO | Indexed 6 chunks from 1 PDF(s)
+2026-10-29 16:28:56,439 | INFO | Using default CrewAI memory (cannot import name 'LongTermMemory' from 'crewai.memory' (D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\crewai\memory\__init__.py))
+2026-10-29 16:29:03,817 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:05,191 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:05,223 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:29:05,224 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:05,225 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:06,180 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:06,183 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:29:06,184 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:06,184 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:07,263 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:08,141 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:08,143 | INFO | RAG search: certification
+2026-10-29 16:29:08,578 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:08,584 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:29:08,584 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:08,584 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:09,056 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:09,058 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:29:09,059 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:09,059 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:10,885 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:10,886 | INFO | OpenAI API usage: {'prompt_tokens': 1419, 'completion_tokens': 79, 'total_tokens': 1498, 'cached_prompt_tokens': 0, 'reasoning_tokens': 0}
+2026-10-29 16:29:11,904 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:13,242 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:14,774 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:14,823 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:16,105 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:16,631 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:16,700 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:16,700 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:16,700 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:17,074 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:17,078 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:17,080 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:17,080 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:18,004 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:19,073 | INFO | response: https://grokipedia.com/api/typeahead?query=certification+processes+requirements+types&limit=1 200
+2026-10-29 16:29:19,111 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=certification%20processes%20requirements%20types 200
+2026-10-29 16:29:19,738 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:29:19,945 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:29:20,749 | INFO | response: https://html.duckduckgo.com/html/ 200
+2026-10-29 16:29:20,754 | INFO | Web search: certification processes requirements types
+2026-10-29 16:29:21,118 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:21,130 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:21,130 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:21,130 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:21,515 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:21,516 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:21,518 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:21,518 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:22,924 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:23,245 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:23,319 | INFO | response: https://grokipedia.com/api/typeahead?query=certification+overview+types+requirements&limit=1 200
+2026-10-29 16:29:23,530 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=certification%20overview%20types%20requirements 200
+2026-10-29 16:29:23,642 | INFO | response: https://html.duckduckgo.com/html/ 202
+2026-10-29 16:29:23,743 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:23,933 | INFO | response: https://search.yahoo.com/search;_ylt=CUVjtj8bMhqjFSwitGgz7DdP;_ylu=GAD0de1twS_OwCTSYWYi7n2sfDWGf5MH6iZBeEvdgQn1FxQ?p=certification+overview+types+requirements 200
+2026-10-29 16:29:24,312 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:25,650 | INFO | response: https://www.mojeek.com/search?q=certification+overview+types+requirements 200
+2026-10-29 16:29:26,023 | INFO | response: https://search.brave.com/search?q=certification+overview+types+requirements&source=web 429
+2026-10-29 16:29:26,727 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:29:26,920 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:29:26,921 | ERROR | Web search failed
+Traceback (most recent call last):
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\customer_support.py", line 247, in web_search
+    results = list(DDGS().text(q, max_results=6))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\ddgs\ddgs.py", line 228, in text
+    return self._search_sync("text", query, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\ddgs\ddgs.py", line 224, in _search_sync
+    raise DDGSException(err or "No results found.")
+ddgs.exceptions.DDGSException: No results found.
+2026-10-29 16:29:27,311 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:27,671 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:27,684 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:27,684 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:27,684 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:28,103 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:28,103 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:28,103 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:28,103 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:29,062 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:29,599 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=certification%20types%20requirements%20processes%20overview 200
+2026-10-29 16:29:30,026 | INFO | response: https://grokipedia.com/api/typeahead?query=certification+types+requirements+processes+overview&limit=1 200
+2026-10-29 16:29:30,626 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:29:30,819 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:29:31,369 | INFO | response: https://www.mojeek.com/search?q=certification+types+requirements+processes+overview 200
+2026-10-29 16:29:31,561 | INFO | response: https://html.duckduckgo.com/html/ 202
+2026-10-29 16:29:31,863 | INFO | response: https://search.brave.com/search?q=certification+types+requirements+processes+overview&source=web 429
+2026-10-29 16:29:32,169 | INFO | response: https://search.yahoo.com/search;_ylt=gbJBxQRAKfU6diu4wsfFkLeU;_ylu=eRlOJKI-wnbOiNY0od18R59mXhxi1GwhB_J3XW934cBNJbQ?p=certification+types+requirements+processes+overview 200
+2026-10-29 16:29:33,348 | INFO | Web search: certification types requirements processes overview
+2026-10-29 16:29:33,718 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:33,718 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:33,718 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:33,718 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:34,134 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:34,135 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:29:34,135 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:34,135 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:37,193 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:37,193 | INFO | OpenAI API usage: {'prompt_tokens': 2127, 'completion_tokens': 245, 'total_tokens': 2372, 'cached_prompt_tokens': 1536, 'reasoning_tokens': 0}
+2026-10-29 16:29:39,069 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:39,572 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:41,131 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:41,215 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:41,325 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:41,348 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:41,584 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:41,650 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:42,967 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:43,534 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:43,682 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:29:43,682 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:43,682 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:44,096 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:44,096 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:29:44,096 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:44,096 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:47,238 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:47,444 | ERROR | Google Sheet save failed
+Traceback (most recent call last):
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\customer_support.py", line 278, in save_to_google_sheet
+    ws = gspread.service_account(filename=cred_file).open_by_key(sheet_id).sheet1
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\gspread\auth.py", line 329, in service_account
+    creds = SACredentials.from_service_account_file(filename, scopes=scopes)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\google\oauth2\service_account.py", line 272, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\google\auth\_service_account_info.py", line 77, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'service_account.json'
+2026-10-29 16:29:47,815 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:47,815 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:29:47,815 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:47,815 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:48,250 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:48,264 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:29:48,265 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:48,265 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:52,022 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:52,034 | ERROR | Google Sheet save failed
+Traceback (most recent call last):
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\customer_support.py", line 278, in save_to_google_sheet
+    ws = gspread.service_account(filename=cred_file).open_by_key(sheet_id).sheet1
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\gspread\auth.py", line 329, in service_account
+    creds = SACredentials.from_service_account_file(filename, scopes=scopes)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\google\oauth2\service_account.py", line 272, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\google\auth\_service_account_info.py", line 77, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'service_account.json'
+2026-10-29 16:29:52,435 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:29:54,149 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:55,932 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:56,571 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:56,990 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:57,002 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:29:57,002 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:57,002 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:57,428 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:29:57,430 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:29:57,432 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:29:57,432 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:29:58,442 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:58,454 | INFO | OpenAI API usage: {'prompt_tokens': 1985, 'completion_tokens': 34, 'total_tokens': 2019, 'cached_prompt_tokens': 1792, 'reasoning_tokens': 0}
+2026-10-29 16:29:59,511 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:29:59,918 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:30:01,025 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:30:01,203 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:30:21,270 | INFO | Ephemeral trace discarded without uploading
+2026-10-29 16:30:58,465 | INFO | Using default CrewAI memory (cannot import name 'LongTermMemory' from 'crewai.memory' (D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\crewai\memory\__init__.py))
+2026-10-29 16:31:02,181 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:02,502 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:02,833 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:02,833 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:02,833 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:03,691 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:03,693 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:03,693 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:03,693 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:04,593 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:05,360 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:05,364 | INFO | RAG search: Support SLA
+2026-10-29 16:31:05,824 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:05,828 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:05,828 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:05,828 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:06,333 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:06,335 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:06,336 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:06,337 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:07,439 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:08,043 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:08,044 | INFO | RAG search: Support SLA policies
+2026-10-29 16:31:08,473 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:08,488 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:08,488 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:08,488 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:09,000 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:09,001 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:09,002 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:09,002 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:09,923 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:10,501 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:10,503 | INFO | RAG search: SLA targets escalation matrix
+2026-10-29 16:31:10,984 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:10,992 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:10,992 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:10,993 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:11,912 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:11,913 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:31:11,914 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:11,914 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:14,894 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:14,901 | INFO | OpenAI API usage: {'prompt_tokens': 3532, 'completion_tokens': 269, 'total_tokens': 3801, 'cached_prompt_tokens': 2688, 'reasoning_tokens': 0}
+2026-10-29 16:31:18,884 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:19,294 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:20,957 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:21,212 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:21,334 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:21,382 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:21,773 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:23,405 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:23,778 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:23,991 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:31:23,991 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:23,991 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:24,433 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:24,434 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:31:24,434 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:24,435 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:25,765 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:26,140 | INFO | response: https://grokipedia.com/api/typeahead?query=Support+SLA+definition+and+details&limit=1 200
+2026-10-29 16:31:26,207 | INFO | response: https://grokipedia.com/api/typeahead?query=Support+SLA+response+times+and+escalation+procedures&limit=1 200
+2026-10-29 16:31:26,285 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Support%20SLA%20definition%20and%20details 200
+2026-10-29 16:31:26,325 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Support%20SLA%20response%20times%20and%20escalation%20procedures 200
+2026-10-29 16:31:26,658 | INFO | response: https://search.yahoo.com/search;_ylt=IjcthGOFWSsBHAemo_lJBhrx;_ylu=RHMxP43qp3tIahCqrkWhRoxb9V1jvrsmqXuWjrsrr_SSMpI?p=Support+SLA+definition+and+details 200
+2026-10-29 16:31:26,664 | INFO | response: https://search.yahoo.com/search;_ylt=uq6aombDD4h2C0sqknb27im-;_ylu=BFwo-wBHVSVTMPArL_v8B4ZfndxEKPObr3ymuR3gmftyW_o?p=Support+SLA+response+times+and+escalation+procedures 200
+2026-10-29 16:31:28,123 | INFO | response: https://www.mojeek.com/search?q=Support+SLA+definition+and+details 200
+2026-10-29 16:31:28,310 | INFO | response: https://html.duckduckgo.com/html/ 200
+2026-10-29 16:31:28,325 | INFO | Web search: Support SLA response times and escalation procedures
+2026-10-29 16:31:28,581 | INFO | response: https://search.brave.com/search?q=Support+SLA+definition+and+details&source=web 429
+2026-10-29 16:31:29,244 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:31:29,442 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:31:29,602 | INFO | response: https://html.duckduckgo.com/html/ 202
+2026-10-29 16:31:29,609 | ERROR | Web search failed
+Traceback (most recent call last):
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\customer_support.py", line 247, in web_search
+    results = list(DDGS().text(q, max_results=6))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\ddgs\ddgs.py", line 228, in text
+    return self._search_sync("text", query, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\ddgs\ddgs.py", line 224, in _search_sync
+    raise DDGSException(err or "No results found.")
+ddgs.exceptions.DDGSException: No results found.
+2026-10-29 16:31:30,187 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:30,762 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:30,775 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:31:30,776 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:30,776 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:31,227 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:31,230 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:31:31,231 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:31,231 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:32,378 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:32,767 | INFO | response: https://grokipedia.com/api/typeahead?query=Support+SLA+response+times+escalation+matrix&limit=1 200
+2026-10-29 16:31:32,777 | INFO | response: https://grokipedia.com/api/typeahead?query=Support+SLA+best+practices&limit=1 200
+2026-10-29 16:31:32,901 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Support%20SLA%20response%20times%20escalation%20matrix 200
+2026-10-29 16:31:32,901 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Support%20SLA%20best%20practices 200
+2026-10-29 16:31:33,523 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:31:33,537 | INFO | response: https://www.mojeek.com/search?q=Support+SLA+best+practices 200
+2026-10-29 16:31:33,660 | INFO | response: https://html.duckduckgo.com/html/ 202
+2026-10-29 16:31:33,749 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:31:33,971 | INFO | response: https://search.yahoo.com/search;_ylt=aElwwvgJ60jQfh6fPQrInlna;_ylu=KkJPbe2oGXv-s6Zcc_ZCdoUi4mN089udBJzD3XUwUzcxgLM?p=Support+SLA+best+practices 200
+2026-10-29 16:31:34,332 | INFO | response: https://www.mojeek.com/search?q=Support+SLA+response+times+escalation+matrix 200
+2026-10-29 16:31:34,638 | INFO | response: https://search.yahoo.com/search;_ylt=s5LMiMYv1B3-1soEeyfjnHp6;_ylu=28V9yw-4eBkwmq9hd4MOPpRGdHHrfTrQFhVty0H7uxXMO2s?p=Support+SLA+response+times+escalation+matrix 200
+2026-10-29 16:31:34,684 | INFO | Web search: Support SLA best practices
+2026-10-29 16:31:35,497 | INFO | Web search: Support SLA response times escalation matrix
+2026-10-29 16:31:35,923 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:36,575 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:36,580 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:31:36,580 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:36,580 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:37,141 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:37,141 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:31:37,141 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:37,141 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:41,697 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:41,697 | INFO | OpenAI API usage: {'prompt_tokens': 2852, 'completion_tokens': 414, 'total_tokens': 3266, 'cached_prompt_tokens': 1920, 'reasoning_tokens': 0}
+2026-10-29 16:31:44,090 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:44,574 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:46,237 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:46,241 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:46,248 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:46,270 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:46,270 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:46,608 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:47,936 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:48,217 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:31:48,393 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:31:48,393 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:48,393 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:49,132 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:49,134 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:31:49,134 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:49,135 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:55,906 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:55,912 | ERROR | Google Sheet save failed
+Traceback (most recent call last):
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\customer_support.py", line 278, in save_to_google_sheet
+    ws = gspread.service_account(filename=cred_file).open_by_key(sheet_id).sheet1
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\gspread\auth.py", line 329, in service_account
+    creds = SACredentials.from_service_account_file(filename, scopes=scopes)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\google\oauth2\service_account.py", line 272, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\google\auth\_service_account_info.py", line 77, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'service_account.json'
+2026-10-29 16:31:56,467 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:56,467 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:31:56,467 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:56,467 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:56,934 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:31:56,934 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:31:56,934 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:31:56,934 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:31:57,999 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:58,013 | INFO | OpenAI API usage: {'prompt_tokens': 2385, 'completion_tokens': 31, 'total_tokens': 2416, 'cached_prompt_tokens': 2304, 'reasoning_tokens': 0}
+2026-10-29 16:31:59,480 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:31:59,935 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:32:01,353 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:32:01,453 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:32:01,470 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:32:01,836 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:45:28,244 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:45:28,252 | INFO | Indexed 6 chunks from 1 PDF(s)
+2026-10-29 16:45:52,268 | INFO | Using default CrewAI memory (cannot import name 'LongTermMemory' from 'crewai.memory' (D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\crewai\memory\__init__.py))
+2026-10-29 16:46:01,132 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:01,536 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:01,795 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:46:01,795 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:01,796 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:02,566 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:02,569 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:46:02,569 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:02,569 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:03,752 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:04,447 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:04,448 | INFO | RAG search: SLA
+2026-10-29 16:46:04,857 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:04,864 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:46:04,864 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:04,864 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:05,268 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:05,269 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:46:05,270 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:05,270 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:06,688 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:07,567 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:08,087 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:08,614 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:09,040 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:10,127 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:10,134 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:46:10,134 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:10,134 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:10,828 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:10,829 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:46:10,829 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:10,829 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:14,271 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:14,278 | INFO | OpenAI API usage: {'prompt_tokens': 3629, 'completion_tokens': 269, 'total_tokens': 3898, 'cached_prompt_tokens': 2048, 'reasoning_tokens': 0}
+2026-10-29 16:46:16,449 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:17,006 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:18,706 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:18,735 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:18,879 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:19,017 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:19,017 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:20,471 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:20,518 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:20,623 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:20,625 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:20,758 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:22,368 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:22,733 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:23,036 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:46:23,036 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:23,036 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:23,668 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:23,669 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:46:23,670 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:23,670 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:25,058 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:25,824 | INFO | response: https://grokipedia.com/api/typeahead?query=what+is+SLA+in+customer+support&limit=1 200
+2026-10-29 16:46:25,839 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20is%20SLA%20in%20customer%20support 200
+2026-10-29 16:46:25,859 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=SLA%20response%20times%20and%20escalation%20matrix 200
+2026-10-29 16:46:26,329 | INFO | response: https://grokipedia.com/api/typeahead?query=SLA+response+times+and+escalation+matrix&limit=1 200
+2026-10-29 16:46:26,477 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:46:26,669 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:46:26,933 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:46:27,024 | INFO | response: https://search.brave.com/search?q=what+is+SLA+in+customer+support&source=web 429
+2026-10-29 16:46:27,143 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:46:27,279 | INFO | response: https://html.duckduckgo.com/html/ 202
+2026-10-29 16:46:27,831 | INFO | response: https://html.duckduckgo.com/html/ 200
+2026-10-29 16:46:27,836 | INFO | Web search: what is SLA in customer support
+2026-10-29 16:46:27,923 | INFO | response: https://www.mojeek.com/search?q=SLA+response+times+and+escalation+matrix 200
+2026-10-29 16:46:28,258 | INFO | response: https://search.yahoo.com/search;_ylt=nNwjj-t1twrVskPmJGOXh4u_;_ylu=rnSy5MfdWIet9oCKbaFZP4yMJXVafDCxWRJpSVH2nh9DRio?p=SLA+response+times+and+escalation+matrix 200
+2026-10-29 16:46:29,217 | INFO | Web search: SLA response times and escalation matrix
+2026-10-29 16:46:29,604 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:30,056 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:30,071 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:46:30,072 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:30,072 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:30,532 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:30,533 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:46:30,534 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:30,534 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:35,202 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:35,211 | INFO | OpenAI API usage: {'prompt_tokens': 2471, 'completion_tokens': 464, 'total_tokens': 2935, 'cached_prompt_tokens': 1408, 'reasoning_tokens': 0}
+2026-10-29 16:46:37,789 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:38,413 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:39,995 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:40,072 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:40,084 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:40,301 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:40,396 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:40,584 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:40,672 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:41,268 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:41,374 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:41,939 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:42,062 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:42,726 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:43,119 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:44,725 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:44,998 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:46:45,321 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:46:45,321 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:45,321 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:45,712 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:45,714 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:46:45,715 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:45,715 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:53,491 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:57,913 | INFO | Sheet row saved
+2026-10-29 16:46:58,314 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:58,323 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:46:58,323 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:58,323 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:58,726 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:46:58,727 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:46:58,728 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:46:58,728 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:46:59,821 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:46:59,823 | INFO | OpenAI API usage: {'prompt_tokens': 2625, 'completion_tokens': 32, 'total_tokens': 2657, 'cached_prompt_tokens': 2560, 'reasoning_tokens': 0}
+2026-10-29 16:47:01,067 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:47:01,504 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:47:02,855 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:47:02,937 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:41,647 | INFO | Using default CrewAI memory (cannot import name 'LongTermMemory' from 'crewai.memory' (D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\crewai\memory\__init__.py))
+2026-10-29 16:49:45,553 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:46,274 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:49:46,473 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:49:46,473 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:49:46,473 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:49:47,092 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:49:47,093 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:49:47,095 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:49:47,095 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:49:47,947 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:48,835 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:49:48,837 | INFO | RAG search: billing policy
+2026-10-29 16:49:49,452 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:49:49,461 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:49:49,461 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:49:49,462 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:49:49,860 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:49:49,863 | INFO | OpenAI: Successfully validated tool 'search_knowledge_base'
+2026-10-29 16:49:49,864 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:49:49,865 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:49:52,637 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:52,638 | INFO | OpenAI API usage: {'prompt_tokens': 2242, 'completion_tokens': 210, 'total_tokens': 2452, 'cached_prompt_tokens': 1408, 'reasoning_tokens': 0}
+2026-10-29 16:49:54,383 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:54,840 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:49:56,370 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:56,404 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:56,412 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:56,590 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:57,882 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:49:58,259 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:49:58,557 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:49:58,557 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:49:58,557 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:49:59,018 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:49:59,022 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:49:59,022 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:49:59,023 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:00,775 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:01,203 | INFO | response: https://grokipedia.com/api/typeahead?query=current+billing+policy+for+subscription+services&limit=1 200
+2026-10-29 16:50:01,246 | INFO | response: https://grokipedia.com/api/typeahead?query=subscription+billing+and+refund+policy&limit=1 200
+2026-10-29 16:50:01,305 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=current%20billing%20policy%20for%20subscription%20services 200
+2026-10-29 16:50:01,399 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=subscription%20billing%20and%20refund%20policy 200
+2026-10-29 16:50:01,893 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:50:02,023 | INFO | response: https://www.mojeek.com/search?q=subscription+billing+and+refund+policy 200
+2026-10-29 16:50:02,087 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:50:02,383 | INFO | response: https://search.yahoo.com/search;_ylt=i3__FnMF15o1OoIWqqAICanW;_ylu=XoQNODqmpvKbIkHP2Jo52vCBDkGKh0MLHhURZ3yQHcs_tLo?p=subscription+billing+and+refund+policy 200
+2026-10-29 16:50:02,424 | INFO | response: https://search.brave.com/search?q=current+billing+policy+for+subscription+services&source=web 429
+2026-10-29 16:50:03,117 | INFO | response: https://www.mojeek.com/search?q=current+billing+policy+for+subscription+services 200
+2026-10-29 16:50:03,154 | INFO | Web search: subscription billing and refund policy
+2026-10-29 16:50:03,904 | INFO | response: https://html.duckduckgo.com/html/ 200
+2026-10-29 16:50:03,909 | INFO | Web search: current billing policy for subscription services
+2026-10-29 16:50:04,295 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:04,706 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:04,719 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:50:04,720 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:04,720 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:05,157 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:05,159 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:50:05,160 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:05,161 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:06,989 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:07,401 | INFO | response: https://grokipedia.com/api/typeahead?query=subscription+billing+and+refund+policy+2023&limit=1 200
+2026-10-29 16:50:07,449 | INFO | response: https://grokipedia.com/api/typeahead?query=current+subscription+billing+practices&limit=1 200
+2026-10-29 16:50:07,505 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=subscription%20billing%20and%20refund%20policy%202023 200
+2026-10-29 16:50:07,605 | INFO | response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=current%20subscription%20billing%20practices 200
+2026-10-29 16:50:08,101 | INFO | response: https://www.mojeek.com/search?q=subscription+billing+and+refund+policy+2023 200
+2026-10-29 16:50:08,136 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:50:08,323 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:50:08,490 | INFO | response: https://search.brave.com/search?q=subscription+billing+and+refund+policy+2023&source=web 429
+2026-10-29 16:50:08,683 | INFO | response: https://search.brave.com/search?q=current+subscription+billing+practices&source=web 429
+2026-10-29 16:50:09,022 | INFO | response: https://search.yahoo.com/search;_ylt=lAgfCDQKo0SqihG7jYRq8xfX;_ylu=DGE1xANGIzcWSlEN7oSBOxkW6xBcEvyjpDCipeF4fCfoZTo?p=current+subscription+billing+practices 200
+2026-10-29 16:50:09,360 | INFO | response: https://www.startpage.com/ 200
+2026-10-29 16:50:09,676 | INFO | response: https://www.startpage.com/sp/search 200
+2026-10-29 16:50:09,851 | INFO | Web search: current subscription billing practices
+2026-10-29 16:50:10,067 | INFO | response: https://search.yahoo.com/search;_ylt=HwaJ-iIHlVLHVKZCxBvHxQ8w;_ylu=pPTgK3-SAHNHwx5QfYfxqPU_fGzElCSytouy4iUYyonSlw8?p=subscription+billing+and+refund+policy+2023 200
+2026-10-29 16:50:10,863 | INFO | response: https://html.duckduckgo.com/html/ 202
+2026-10-29 16:50:10,865 | ERROR | Web search failed
+Traceback (most recent call last):
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\customer_support.py", line 247, in web_search
+    results = list(DDGS().text(q, max_results=6))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\ddgs\ddgs.py", line 228, in text
+    return self._search_sync("text", query, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GenAI\Customer-support-Agent-using-CrewAI\venv\Lib\site-packages\ddgs\ddgs.py", line 224, in _search_sync
+    raise DDGSException(err or "No results found.")
+ddgs.exceptions.DDGSException: No results found.
+2026-10-29 16:50:11,256 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:11,710 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:11,724 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:50:11,725 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:11,725 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:12,192 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:12,195 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:50:12,195 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:12,196 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:14,132 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:14,546 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:50:14,584 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:14,591 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:50:14,591 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:14,591 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:15,001 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:15,004 | INFO | OpenAI: Successfully validated tool 'web_search'
+2026-10-29 16:50:15,005 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:15,006 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:16,108 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:16,147 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:16,338 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:16,702 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:17,624 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:17,754 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:17,760 | INFO | OpenAI API usage: {'prompt_tokens': 4171, 'completion_tokens': 239, 'total_tokens': 4410, 'cached_prompt_tokens': 4096, 'reasoning_tokens': 0}
+2026-10-29 16:50:17,877 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:18,256 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:19,224 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:19,552 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:19,597 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:50:20,253 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:50:21,524 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:21,629 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:21,663 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:22,234 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:23,942 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:24,322 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:50:24,538 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:50:24,538 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:24,538 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:24,941 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:24,945 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:50:24,947 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:24,947 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:29,976 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:33,629 | INFO | Sheet row saved
+2026-10-29 16:50:34,005 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:34,019 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:50:34,019 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:34,019 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:35,141 | INFO | HTTP Request: POST https://api.openai.com/v1/responses/input_tokens "HTTP/1.1 200 OK"
+2026-10-29 16:50:35,145 | INFO | OpenAI: Successfully validated tool 'save_to_google_sheet'
+2026-10-29 16:50:35,146 | INFO | OpenAI: Successfully validated tool 'search_memory'
+2026-10-29 16:50:35,148 | INFO | OpenAI: Successfully validated tool 'save_to_memory'
+2026-10-29 16:50:36,314 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:36,322 | INFO | OpenAI API usage: {'prompt_tokens': 1998, 'completion_tokens': 32, 'total_tokens': 2030, 'cached_prompt_tokens': 1920, 'reasoning_tokens': 0}
+2026-10-29 16:50:37,704 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:38,822 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-10-29 16:50:40,113 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 16:50:41,050 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

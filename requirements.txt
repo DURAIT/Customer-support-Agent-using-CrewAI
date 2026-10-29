@@ -1,0 +1,7 @@
+crewai
+streamlit
+faiss-cpu
+pypdf
+gspread
+ddgs
+python-dotenv
